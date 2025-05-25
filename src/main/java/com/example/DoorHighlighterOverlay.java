@@ -30,9 +30,6 @@ public class DoorHighlighterOverlay extends Overlay
     @Override
     public Dimension render(Graphics2D graphics)
     {
-        graphics.setColor(Color.GREEN);
-        graphics.drawString("Overlay active", 20, 20); // Debug text
-
         for (int i = 0; i < plugin.getDoors().size(); ++i)
         {
 
